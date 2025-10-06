@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll Form</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <!-- Full Name Input -->
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname">
+
+                <!-- Email Input -->
+                <label for="email">Email:</label>
+                <input type="email" id="useremail" name="useremail">
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <!-- Q1 - Favorite Browser -->
+                <label for="browser">What is your favorite browser?</label>
+                <select id="browser" name="browser">
+                    <option value="0">Google Chrome</option>
+                    <option value="1">Mozilla Firefox</option>
+                    <option value="2">Microsoft Edge</option>
+                </select>
+
+                <!-- Q2 - Household Pet -->
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" name="pet" id="pet">
+
+                <!-- Q3 - Places Lived -->
+                <label for="feedback">List the places you have lived.</label>
+                <textarea name="feedback" id="feedback" rows="4"
+                    placeholder="Logan Utah, Ogden Utah, Bountiful Utah"></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy;2025 | Utah, United States | Cayden Lunt </p>
+    </footer>
+</body>
+
+</html>
