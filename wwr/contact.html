@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Cayden Lunt">
+    <meta name="description" content="Wild white water, contact us page. Find content info for Wild White Water.">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Contact Wild White Water</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/z-raftingcompas.jpg" alt="White Water Rafting Logo">
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contact-info">
+            <h1 class="plain-header">Contact - Wild White Water</h1>
+            <div class="address-info">
+                <address>
+                    <p class="addr">1500 US-89, 84321</p>
+                    <p class="addr">Logan, Utah</p>
+                </address>
+                <div class="contact">
+                    <p class="addr">+1 (999) 999-9999</p>
+                    <p class="addr">info@wildwhitewater.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="body-content">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.9127704546745!2d-111.79838536173311!3d41.74430160822041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87547e2e7d0c782f%3A0x49a441d9829a4a00!2sUS%20Forest%20Service!5e0!3m2!1sen!2sus!4v1759973679606!5m2!1sen!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contact">
+                <form>
+                    <!-- Customer Info -->
+                    <fieldset class="rounded">
+                        <div class="form-grid">
+                            <div class="form-section name">
+                                <label for="customer-name">Name</label>
+                                <label for="customer-email">Email</label>
+                            </div>
+                            <div class="form-section email">
+                                <input type="email" id="customer-email" name="customer-email" placeholder="Email..."
+                                    required>
+                                <input type="text" id="customer-name" name="customer-name" placeholder="Name..."
+                                    required>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <!-- Purpose -->
+                    <fieldset class="rounded">
+                        <div class="form-section buttons">
+                            <div class="horizontal-input">
+                                <p>Message Purpose</p>
+                                <div class="input-content">
+                                    <div class="horizontal-input">
+                                        <input type="radio" id="general" name="general" value="0"
+                                            title="General Inquiry">
+                                        <label for="general">General Inquiry</label>
+                                    </div>
+                                    <div class="horizontal-input">
+                                        <input type="radio" id="reservation" name="reservation" value="1"
+                                            title="Reservation Question">
+                                        <label for="reservation">Reservation Question</label>
+                                    </div>
+                                    <div class="horizontal-input">
+                                        <input type="radio" id="suggestion" name="suggestion" value="2"
+                                            title="Website Expression">
+                                        <label for="suggestion">Website Expression</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <!-- Message -->
+                    <fieldset class="rounded">
+                        <div class="form-section">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Message..." required></textarea>
+                        </div>
+                    </fieldset>
+                    <!-- Submission -->
+                    <fieldset class="rounded">
+                        <div class="form-section">
+                            <div class="horizontal-input subscribe">
+                                <input name="newsletter" id="newsletter" type="checkbox">
+                                <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                            </div>
+                        </div>
+                        <button type="submit" id="submit">Get in Touch!</button>
+
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p class="copy">&copy; 2025 | Wild White Water | Cayden Lunt</p>
+        <nav class="socialmedia">
+            <a href="http://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="Facebook logo"></a>
+            <a href="http://www.instagram.com/" target="_blank"><img src="images/instagram.png"
+                    alt="Instagram logo"></a>
+            <a href="http://www.youtube.com" target="_blank"><img src="images/youtube.png" alt="Youtube logo"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>

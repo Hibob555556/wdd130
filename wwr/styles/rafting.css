@@ -48,7 +48,7 @@ nav, p, section, article {
 }
 
 /* Class Styles */
-.hero {
+.hero, .contact-info {
     position: relative;
 }
 
@@ -96,6 +96,132 @@ h2 {
     padding: 10px;
     text-align: center;
     border-bottom: 1px groove var(--primary-contrast-light-opaque);
+}
+
+.addr {
+    padding: 0;
+    margin: 0;
+    color: var(--primary-contrast-light);
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.address-info {
+    padding-top: 4.5rem;
+}
+
+.body-content {
+    display: grid;
+    grid-template-columns: 415px 415px;
+    grid-gap: 10px;
+    margin: 1rem 0 1rem 0;
+}
+
+iframe {
+    max-width: 420px;
+}
+
+.plain-header {
+    color: var(--primary-contrast-light);
+    background-color: var(--bg-clr);
+    padding: 0;
+}
+
+.rounded {
+    padding: 5px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+form {
+    color: var(--primary-contrast-light);
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.form-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.form-section input, .form-section label, .form-section textarea {
+    margin: 8px;
+}
+
+textarea {
+    width: auto;
+    height: 75px;
+}
+
+.buttons {
+    width: 10rem;
+}
+
+.form-section .horizontal-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.form-section .horizontal-input input{
+    width: 10px;
+}
+
+.subscribe label {
+    margin: 5px 0;
+}
+
+button {
+    width: 275px;
+    height: 25px;
+    border-radius: 7px;
+    border: none;
+    align-self: center;
+}
+
+.buttons label{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.buttons label {
+    display: flex;
+    flex-direction: row;
+    width: 160px;
+}
+
+.input-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section label p {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin-right: 32px;
+    margin-top: 1.5rem;
+}
+
+
+input, textarea {
+    font: var(--body-font);
+}
+
+iframe {
+    margin-top: 15px;
+    height: 95%;
 }
 
 /* Header Styles */
