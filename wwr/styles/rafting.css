@@ -154,7 +154,7 @@ form {
 
 .employees h2 {
     border: none;
-    color: var(--primary-contrast-light);
+    color: var(--primary-contrast-dark);
 }
 
 .employees .images{
@@ -253,7 +253,7 @@ button {
     margin: 0;
     padding: 0;
     font-size: large;
-    color: var(--primary-contrast-light);
+    color: var(--primary-contrast-dark);
 }
 
 input, textarea {
