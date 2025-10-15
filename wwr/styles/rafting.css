@@ -384,6 +384,11 @@ iframe {
     grid-column-end: 2;
 }
 
+#submit {
+    width: 75px;
+    margin-left: 25px;
+}
+
 .table-container {
     display: flex;
     justify-content: center;
