@@ -11,6 +11,7 @@
     --primary-contrast-dark-opaque: #000000ce;
     --primary-contrast-light-opaque: #f7f7f7d7;
     --shadow: 5px 5px 15px 5px rgba(0,0,0,.25);
+    --border: 1px solid var(--bg-clr);
 }
 
 * {
@@ -345,6 +346,60 @@ iframe {
 
 .a-images p {
     padding-top: 0px; 
+}
+
+.margin-bottom {
+    padding-bottom: 7rem;
+}
+
+.booking-questions {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.a-trip-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 250px 250px;
+    margin-bottom: 130px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.a-trip-images p {
+    margin: 0px;
+}
+
+.tully {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.salmon {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+table {
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+table, th, td {
+    text-align: center;
+    border: var(--border);
+    padding: 5px;
 }
 
 /* Header Styles */
